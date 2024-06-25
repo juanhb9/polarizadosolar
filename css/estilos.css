@@ -446,6 +446,7 @@ body{
     outline: none;
     border: none;
     margin-right: 16px;
+    width: 290px;
  }
 
  .footer__submit{
@@ -458,6 +459,7 @@ body{
     font-size: 1rem;
     color: #fff;
     border-radius: 6px;
+    cursor: pointer;
  }
 
  .footer__copy{
@@ -465,3 +467,19 @@ body{
     text-align: center;
     color: #fff;
  }
+
+.footer__copyright{
+    font-weight: 300;
+}
+
+.footer__icons{
+  /*   display: inline-flex; */
+    margin-bottom: 10px;
+}
+
+.footer__img{
+    width: 30px;
+}
+
+
+/* Media Queries */
